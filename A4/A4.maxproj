@@ -2,8 +2,8 @@
 	"name" : "A4",
 	"version" : 1,
 	"creationdate" : 3825250917,
-	"modificationdate" : 3825250928,
-	"viewrect" : [ 25.0, 107.0, 300.0, 500.0 ],
+	"modificationdate" : 3825251826,
+	"viewrect" : [ 33.0, 82.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,21 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"syd.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"luca.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ndjia.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
