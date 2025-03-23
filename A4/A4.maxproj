@@ -2,12 +2,12 @@
 	"name" : "A4",
 	"version" : 1,
 	"creationdate" : 3825250917,
-	"modificationdate" : 3825251826,
+	"modificationdate" : 3825592827,
 	"viewrect" : [ 33.0, 82.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
-	"autolocalize" : 0,
+	"autolocalize" : 1,
 	"contents" : 	{
 		"patchers" : 		{
 			"main.maxpat" : 			{
@@ -30,6 +30,15 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"ACW103-Ambisonics-Template.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 
