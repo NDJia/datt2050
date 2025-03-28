@@ -2,7 +2,7 @@
 	"name" : "A4",
 	"version" : 1,
 	"creationdate" : 3825250917,
-	"modificationdate" : 3825592827,
+	"modificationdate" : 3826016062,
 	"viewrect" : [ 33.0, 82.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -39,6 +39,29 @@
 		}
 ,
 		"externals" : 		{
+			"jit.boids2d.mxe64" : 			{
+				"kind" : "object"
+			}
+,
+			"xray.jit.boidsrender.mxe64" : 			{
+				"kind" : "object"
+			}
+,
+			"ambidecode~.mxo" : 			{
+				"kind" : "object"
+			}
+,
+			"ambiencode~.mxo" : 			{
+				"kind" : "object"
+			}
+,
+			"ambimonitor.mxo" : 			{
+				"kind" : "object"
+			}
+,
+			"jit.boids3d.mxe64" : 			{
+				"kind" : "object"
+			}
 
 		}
 
