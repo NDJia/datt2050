@@ -1,0 +1,46 @@
+{
+	"diffuse_model" : "lambert",
+	"specular_model" : "blinn",
+	"tex_normals" : 1,
+	"tex_diffuse" : 1,
+	"bump" : 1,
+	"fog" : "none",
+	"params" : 	{
+		"diffuse" : 1,
+		"normals" : 0
+	}
+,
+	"textures" : 	{
+		"diffuse" : 		{
+			"type" : "auto",
+			"colormode" : "auto",
+			"rectangle" : 1,
+			"filter" : "linear",
+			"mipmap" : "none",
+			"wrap" : [ "clampedge", "clampedge", "clampedge" ],
+			"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+			"anisotropy" : 0
+		}
+,
+		"normals" : 		{
+			"type" : "auto",
+			"colormode" : "auto",
+			"rectangle" : 1,
+			"filter" : "linear",
+			"mipmap" : "none",
+			"wrap" : [ "clampedge", "clampedge", "clampedge" ],
+			"bordercolor" : [ 0.5, 0.5, 0.5, 1.0 ],
+			"anisotropy" : 0
+		}
+
+	}
+,
+	"filename" : "goldfish.jitmtl",
+	"color" : [ 0.5, 0.5, 0.5, 1.0 ],
+	"mat_emission" : [ 0.0, 0.0, 0.0, 1.0 ],
+	"mat_ambient" : [ 0.5, 0.5, 0.5, 1.0 ],
+	"mat_diffuse" : [ 0.5, 0.5, 0.5, 1.0 ],
+	"mat_specular" : [ 0.5, 0.5, 0.5, 1.0 ],
+	"shininess" : [ 10.0 ],
+	"fog_params" : [ 0.5, 0.5, 0.5, 0.0, 1.0, 1.0, 100.0 ]
+}

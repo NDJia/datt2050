@@ -228,10 +228,10 @@
 
 							}
  ],
-						"originid" : "pat-96"
+						"originid" : "pat-243"
 					}
 ,
-					"patching_rect" : [ 28.947368144989014, 336.184207320213318, 104.0, 22.0 ],
+					"patching_rect" : [ 29.0, 379.0, 104.0, 22.0 ],
 					"text" : "jit.gen @title wrap"
 				}
 
@@ -243,7 +243,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.947368144989014, 373.0, 77.0, 22.0 ],
+					"patching_rect" : [ 29.0, 416.0, 77.0, 22.0 ],
 					"text" : "r renderbang"
 				}
 
@@ -282,7 +282,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 254.705892980098724, 414.705899655818939, 150.0, 22.0 ],
+					"patching_rect" : [ 117.5, 427.0, 150.0, 22.0 ],
 					"text_width" : 60.0
 				}
 
@@ -297,7 +297,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 144.117653071880341, 414.705899655818939, 106.0, 22.0 ],
+					"patching_rect" : [ 144.0, 458.0, 106.0, 22.0 ],
 					"text_width" : 78.0
 				}
 
@@ -310,7 +310,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
-					"patching_rect" : [ 29.0, 450.657890439033508, 283.0, 22.0 ],
+					"patching_rect" : [ 29.0, 494.0, 283.0, 22.0 ],
 					"style" : "default",
 					"text" : "xray.jit.boidsrender @scale 0.01 0.05 @normalize 1"
 				}
@@ -323,9 +323,9 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 29.0, 491.4473637342453, 519.0, 22.0 ],
+					"patching_rect" : [ 29.0, 592.0, 407.0, 22.0 ],
 					"style" : "default",
-					"text" : "jit.gl.mesh aquarium @draw_mode quads @color 0 0.3 0.3 0.5 @point_size 3 @blend_enable 1"
+					"text" : "jit.gl.mesh aquarium @draw_mode quads @point_size 3 @blend_enable 1"
 				}
 
 			}
@@ -337,7 +337,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 28.947368144989014, 406.552631258964539, 63.0, 22.0 ],
+					"patching_rect" : [ 29.0, 450.0, 63.0, 22.0 ],
 					"style" : "default",
 					"text" : "jit.boids2d"
 				}
@@ -349,7 +349,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 356.0, 168.0, 20.0 ],
+					"patching_rect" : [ 135.0, 399.0, 168.0, 20.0 ],
 					"style" : "default",
 					"text" : "<- Click to run simulation"
 				}
@@ -361,7 +361,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 57.0, 641.0, 127.0, 20.0 ],
+					"patching_rect" : [ 48.5, 801.0, 127.0, 20.0 ],
 					"style" : "default",
 					"text" : "2 - same as in mode 1"
 				}
@@ -374,7 +374,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 729.0, 330.0, 34.0 ],
+					"patching_rect" : [ 27.5, 889.0, 330.0, 34.0 ],
 					"style" : "default",
 					"text" : "xray.jit.boids also generates texture coordinates for the quads, making each quad display the entire texture"
 				}
@@ -386,7 +386,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 707.0, 314.0, 20.0 ],
+					"patching_rect" : [ 141.5, 867.0, 314.0, 20.0 ],
 					"style" : "default",
 					"text" : "normalization on/off (only valid in jit.boids modes 1 and 2)"
 				}
@@ -398,7 +398,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 57.0, 707.0, 107.0, 20.0 ],
+					"patching_rect" : [ 48.5, 867.0, 107.0, 20.0 ],
 					"style" : "default",
 					"text" : "normalize [0, 1]"
 				}
@@ -410,7 +410,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 150.0, 685.0, 192.0, 20.0 ],
+					"patching_rect" : [ 141.5, 845.0, 192.0, 20.0 ],
 					"style" : "default",
 					"text" : "scale width and height of quads"
 				}
@@ -422,7 +422,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 57.0, 685.0, 91.0, 20.0 ],
+					"patching_rect" : [ 48.5, 845.0, 91.0, 20.0 ],
 					"style" : "default",
 					"text" : "scale float[2]:"
 				}
@@ -434,7 +434,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 663.0, 198.0, 20.0 ],
+					"patching_rect" : [ 27.5, 823.0, 198.0, 20.0 ],
 					"style" : "default",
 					"text" : "xray.jit.boidsrender attributes:"
 				}
@@ -446,7 +446,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 57.0, 619.0, 479.0, 20.0 ],
+					"patching_rect" : [ 48.5, 779.0, 479.0, 20.0 ],
 					"style" : "default",
 					"text" : "1- xray.jit.boidsrender will generate quads using the vector between new-xyz and old-xyz"
 				}
@@ -458,7 +458,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 57.0, 597.0, 463.0, 20.0 ],
+					"patching_rect" : [ 48.5, 757.0, 463.0, 20.0 ],
 					"style" : "default",
 					"text" : "0 - xray.jit.boidsrender will generate quads in the XY-plane around the boids' locations"
 				}
@@ -470,7 +470,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 575.0, 94.0, 20.0 ],
+					"patching_rect" : [ 27.5, 735.0, 94.0, 20.0 ],
 					"style" : "default",
 					"text" : "jit.boids mode:"
 				}
@@ -483,7 +483,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 540.0, 286.0, 34.0 ],
+					"patching_rect" : [ 27.5, 703.0, 286.0, 34.0 ],
 					"style" : "default",
 					"text" : "xray.jit.boids render is a utility object for jit.boids, turning the output of jit.boids from points to quads."
 				}
@@ -1544,11 +1544,50 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"attr" : "scale",
+					"id" : "obj-85",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 245.5, 562.0, 205.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "position",
+					"id" : "obj-93",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 235.0, 532.0, 226.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "gl_color",
+					"id" : "obj-94",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 311.0, 501.0, 150.0, 22.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-103", 1 ],
-					"midpoints" : [ 170.5, 481.789469718933105, 101.0, 481.789469718933105 ],
+					"midpoints" : [ 170.5, 532.789469718933105, 87.0, 532.789469718933105 ],
 					"source" : [ "obj-101", 1 ]
 				}
 
@@ -1587,7 +1626,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
-					"midpoints" : [ 153.617653071880341, 443.789469718933105, 38.5, 443.789469718933105 ],
+					"midpoints" : [ 153.5, 485.605262398719788, 38.5, 485.605262398719788 ],
 					"source" : [ "obj-130", 0 ]
 				}
 
@@ -1595,7 +1634,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
-					"midpoints" : [ 264.205892980098724, 443.789469718933105, 38.5, 443.789469718933105 ],
+					"midpoints" : [ 127.0, 443.789469718933105, 38.5, 443.789469718933105 ],
 					"source" : [ "obj-133", 0 ]
 				}
 
@@ -2076,8 +2115,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-115", 0 ],
 					"hidden" : 1,
-					"midpoints" : [ 687.474681735038757, 656.0, 465.487340867519379, 656.0, 465.487340867519379, 395.993542969226837, 38.447368144989014, 395.993542969226837 ],
+					"midpoints" : [ 687.474681735038757, 656.0, 465.487340867519379, 656.0, 465.487340867519379, 395.993542969226837, 38.5, 395.993542969226837 ],
 					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"source" : [ "obj-85", 0 ]
 				}
 
 			}
@@ -2090,13 +2136,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"source" : [ "obj-94", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
 					"source" : [ "obj-98", 0 ]
 				}
 
 			}
  ],
-		"originid" : "pat-94",
+		"originid" : "pat-241",
 		"dependency_cache" : [ 			{
 				"name" : "jit.boids2d.mxe64",
 				"type" : "mx64"

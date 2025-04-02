@@ -2,8 +2,8 @@
 	"name" : "A4",
 	"version" : 1,
 	"creationdate" : 3825250917,
-	"modificationdate" : 3826016062,
-	"viewrect" : [ 33.0, 82.0, 300.0, 500.0 ],
+	"modificationdate" : 3826460526,
+	"viewrect" : [ 927.0, 278.0, 300.0, 471.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -38,8 +38,75 @@
 
 		}
 ,
+		"media" : 		{
+			"sea.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"GoldFish.obj" : 			{
+				"kind" : "model",
+				"local" : 1
+			}
+,
+			"scardinius.obj" : 			{
+				"kind" : "model",
+				"local" : 1
+			}
+,
+			"SharkBoi.obj" : 			{
+				"kind" : "model",
+				"local" : 1
+			}
+,
+			"Fish.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"goldfish.jitmtl" : 			{
+				"kind" : "material",
+				"local" : 1
+			}
+,
+			"goldfish.jitmtl.diffuse.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"goldfish.jitmtl.normals.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"goldfish.jitmtl.thumbnail.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"shark.jitmtl" : 			{
+				"kind" : "material",
+				"local" : 1
+			}
+,
+			"shark.jitmtl.diffuse.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"shark.jitmtl.thumbnail.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+
+		}
+,
 		"externals" : 		{
 			"jit.boids2d.mxe64" : 			{
+				"kind" : "object"
+			}
+,
+			"jit.boids3d.mxe64" : 			{
 				"kind" : "object"
 			}
 ,
@@ -58,9 +125,13 @@
 			"ambimonitor.mxo" : 			{
 				"kind" : "object"
 			}
+
+		}
 ,
-			"jit.boids3d.mxe64" : 			{
-				"kind" : "object"
+		"other" : 		{
+			"scardinius.mtl" : 			{
+				"kind" : "file",
+				"local" : 1
 			}
 
 		}
