@@ -4,15 +4,30 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1644.0, -188.0, 1349.0, 779.0 ],
+		"rect" : [ 134.0, 134.0, 1349.0, 779.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.054901960784314, 0.427450980392157, 0.0, 1.0 ],
+					"color" : [ 0.266666666666667, 0.27843137254902, 0.015686274509804, 1.0 ],
+					"fontsize" : 18.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 563.0, 530.0, 86.0, 29.0 ],
+					"text" : "r~ bubble"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "comment",
@@ -55,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 676.54278564453125, 271.5, 224.0, 62.0 ],
+					"patching_rect" : [ 676.54278564453125, 271.5, 224.0, 64.0 ],
 					"text" : "clear, aed 2 -45 -30 1., aed 3 45 -30 1., aed 4 135 -30 1., aed 1 -135 -30 1., aed 6 -45 30 1., aed 7 45 30 1., aed 8 135 30 1., aed 5 -135 30 1., aed 9 0. 90. 1."
 				}
 
@@ -69,7 +84,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 678.0, 227.0, 121.0, 31.0 ],
+					"patching_rect" : [ 678.0, 227.0, 122.0, 31.0 ],
 					"text" : "transmedia lab - 90 degree ccw rotation"
 				}
 
@@ -262,7 +277,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 126.0, 710.0, 151.0, 60.0 ],
+					"patching_rect" : [ 126.0, 710.0, 151.0, 62.0 ],
 					"text" : "NOTE: in order to use this patch you need to install ICST Ambisonics from the package manager."
 				}
 
@@ -648,7 +663,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -858,7 +873,7 @@
 
 							}
  ],
-						"originid" : "pat-18"
+						"originid" : "pat-75"
 					}
 ,
 					"patching_rect" : [ 359.9359130859375, 410.0, 86.0, 22.0 ],
@@ -897,7 +912,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1107,7 +1122,7 @@
 
 							}
  ],
-						"originid" : "pat-20"
+						"originid" : "pat-77"
 					}
 ,
 					"patching_rect" : [ 356.93597412109375, 263.0, 86.0, 22.0 ],
@@ -1146,7 +1161,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1356,7 +1371,7 @@
 
 							}
  ],
-						"originid" : "pat-22"
+						"originid" : "pat-79"
 					}
 ,
 					"patching_rect" : [ 359.93597412109375, 113.0, 86.0, 22.0 ],
@@ -1406,7 +1421,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1180.56201171875, 240.58001708984375, 154.0, 39.0 ],
+					"patching_rect" : [ 1180.56201171875, 240.58001708984375, 154.0, 40.0 ],
 					"text" : "clear, aed 1 -45 -30 1., aed 2 45 -30 1., aed 3 135 -30 1., aed 4 -135 -30 1.,"
 				}
 
@@ -1421,7 +1436,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1180.56201171875, 143.58001708984375, 139.0, 39.0 ],
+					"patching_rect" : [ 1180.56201171875, 143.58001708984375, 139.0, 40.0 ],
 					"text" : "clear, aed 5 -45 30 1., aed 6 45 30 1., aed 7 135 30 1., aed 8 -135 30 1., aed 9 0. 90. 1."
 				}
 
@@ -1942,7 +1957,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 883.156982421875, 503.0, 15.0, 15.0 ],
+					"patching_rect" : [ 883.656982421875, 505.0, 15.0, 15.0 ],
 					"svg" : ""
 				}
 
@@ -1955,7 +1970,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 783.1376953125, 503.0, 15.0, 15.0 ],
+					"patching_rect" : [ 783.656982421875, 505.0, 15.0, 15.0 ],
 					"svg" : ""
 				}
 
@@ -1968,7 +1983,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 683.11846923828125, 503.0, 15.0, 15.0 ],
+					"patching_rect" : [ 683.656982421875, 505.0, 15.0, 15.0 ],
 					"svg" : ""
 				}
 
@@ -1987,7 +2002,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2411,7 +2426,7 @@
 
 							}
  ],
-						"originid" : "pat-24"
+						"originid" : "pat-81"
 					}
 ,
 					"patching_rect" : [ 689.325607299804688, 530.08001708984375, 212.831375122070312, 19.0 ],
@@ -2859,7 +2874,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 681.78515625, 143.58001708984375, 230.0, 39.0 ],
+					"patching_rect" : [ 681.78515625, 143.58001708984375, 230.0, 40.0 ],
 					"text" : "clear, aed 1 -45 -30 1., aed 2 45 -30 1., aed 3 135 -30 1., aed 4 -135 -30 1., aed 5 -45 30 1., aed 6 45 30 1., aed 7 135 30 1., aed 8 -135 30 1., aed 9 0. 90. 1."
 				}
 
@@ -3123,7 +3138,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.447518749806177, 0.44751863973454, 0.447518668498017, 1.0 ],
 					"destination" : [ "obj-50", 8 ],
 					"order" : 3,
 					"source" : [ "obj-126", 8 ]
@@ -3523,6 +3537,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 2 ],
 					"source" : [ "obj-32", 0 ]
 				}
@@ -3724,18 +3745,18 @@
 
 			}
  ],
-		"originid" : "pat-16",
+		"originid" : "pat-73",
 		"dependency_cache" : [ 			{
-				"name" : "ambidecode~.mxo",
-				"type" : "iLaX"
+				"name" : "ambidecode~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "ambiencode~.mxo",
-				"type" : "iLaX"
+				"name" : "ambiencode~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "ambimonitor.mxo",
-				"type" : "iLaX"
+				"name" : "ambimonitor.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
