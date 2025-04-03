@@ -2,8 +2,8 @@
 	"name" : "A4",
 	"version" : 1,
 	"creationdate" : 3825250917,
-	"modificationdate" : 3826460526,
-	"viewrect" : [ 927.0, 278.0, 300.0, 471.0 ],
+	"modificationdate" : 3826552165,
+	"viewrect" : [ 1201.0, 180.0, 300.0, 471.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -98,6 +98,16 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
+,
+			"bgm.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"bubbles-007.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
 
 		}
 ,
@@ -124,14 +134,6 @@
 ,
 			"ambimonitor.mxo" : 			{
 				"kind" : "object"
-			}
-
-		}
-,
-		"other" : 		{
-			"scardinius.mtl" : 			{
-				"kind" : "file",
-				"local" : 1
 			}
 
 		}
