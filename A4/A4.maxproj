@@ -2,7 +2,7 @@
 	"name" : "A4",
 	"version" : 1,
 	"creationdate" : 3825250917,
-	"modificationdate" : 3826552165,
+	"modificationdate" : 3826571435,
 	"viewrect" : [ 1201.0, 180.0, 300.0, 471.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -39,6 +39,11 @@
 		}
 ,
 		"media" : 		{
+			"bubbles-007.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
 			"sea.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -104,8 +109,28 @@
 				"local" : 1
 			}
 ,
-			"bubbles-007.wav" : 			{
-				"kind" : "audiofile",
+			"seaweed.jitmtl" : 			{
+				"kind" : "material",
+				"local" : 1
+			}
+,
+			"seaweed.jitmtl.ambient.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"seaweed.jitmtl.diffuse.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"seaweed.jitmtl.thumbnail.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"seaweed02.fbx" : 			{
+				"kind" : "model",
 				"local" : 1
 			}
 
@@ -116,11 +141,11 @@
 				"kind" : "object"
 			}
 ,
-			"jit.boids3d.mxe64" : 			{
+			"xray.jit.boidsrender.mxe64" : 			{
 				"kind" : "object"
 			}
 ,
-			"xray.jit.boidsrender.mxe64" : 			{
+			"jit.boids3d.mxe64" : 			{
 				"kind" : "object"
 			}
 ,

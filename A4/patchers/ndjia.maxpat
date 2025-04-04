@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -85.0, 85.0, 1517.0, 913.0 ],
+		"rect" : [ 3.0, 145.0, 1517.0, 913.0 ],
 		"bglocked" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -298,7 +298,7 @@
 
 							}
  ],
-						"originid" : "pat-349"
+						"originid" : "pat-73"
 					}
 ,
 					"patching_rect" : [ 1684.0, 208.0, 143.0, 22.0 ],
@@ -534,7 +534,7 @@
 
 							}
  ],
-						"originid" : "pat-351"
+						"originid" : "pat-75"
 					}
 ,
 					"patching_rect" : [ 1684.0, 103.526315450668335, 171.0, 22.0 ],
@@ -817,7 +817,7 @@
 
 							}
  ],
-						"originid" : "pat-353"
+						"originid" : "pat-77"
 					}
 ,
 					"patching_rect" : [ 1293.0, 213.461538461538453, 121.0, 22.0 ],
@@ -1053,7 +1053,7 @@
 
 							}
  ],
-						"originid" : "pat-355"
+						"originid" : "pat-79"
 					}
 ,
 					"patching_rect" : [ 1293.0, 107.615384615384642, 149.0, 22.0 ],
@@ -1327,7 +1327,7 @@
 
 							}
  ],
-						"originid" : "pat-357"
+						"originid" : "pat-81"
 					}
 ,
 					"patching_rect" : [ 29.0, 379.0, 104.0, 22.0 ],
@@ -2725,6 +2725,21 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.035294117647059, 0.388235294117647, 0.101960784313725, 1.0 ],
+					"id" : "obj-111",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1224.0, 473.0, 756.0, 431.0 ],
+					"proportion" : 0.5
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -3445,7 +3460,7 @@
 
 			}
  ],
-		"originid" : "pat-347",
+		"originid" : "pat-71",
 		"dependency_cache" : [ 			{
 				"name" : "jit.boids2d.mxe64",
 				"type" : "mx64"
