@@ -10,10 +10,82 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 314.0, 99.0, 1093.0, 629.0 ],
+		"rect" : [ 313.0, 99.0, 1093.0, 629.0 ],
 		"bglocked" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-153",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 325.0, 468.0, 72.0, 22.0 ],
+					"text" : "0.5 0.1 1. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-144",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 311.0, 435.468354463577271, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-140",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 228.0, 678.0, 55.0, 22.0 ],
+					"text" : "enable 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-113",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 222.0, 637.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-100",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 127.0, 647.0, 55.0, 22.0 ],
+					"text" : "enable 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 19.0, 630.0, 65.0, 22.0 ],
+					"text" : "r boidbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-159",
 					"maxclass" : "newobj",
@@ -515,7 +587,7 @@
 
 							}
  ],
-						"originid" : "pat-42"
+						"originid" : "pat-20"
 					}
 ,
 					"patching_rect" : [ 1684.0, 208.0, 143.0, 22.0 ],
@@ -751,7 +823,7 @@
 
 							}
  ],
-						"originid" : "pat-44"
+						"originid" : "pat-22"
 					}
 ,
 					"patching_rect" : [ 1684.0, 103.526315450668335, 171.0, 22.0 ],
@@ -1010,7 +1082,7 @@
 
 							}
  ],
-						"originid" : "pat-46"
+						"originid" : "pat-24"
 					}
 ,
 					"patching_rect" : [ 1293.0, 213.461538461538453, 121.0, 22.0 ],
@@ -1246,7 +1318,7 @@
 
 							}
  ],
-						"originid" : "pat-48"
+						"originid" : "pat-26"
 					}
 ,
 					"patching_rect" : [ 1293.0, 107.615384615384642, 149.0, 22.0 ],
@@ -1298,7 +1370,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 1461.0, 343.0, 231.0, 64.0 ],
+					"patching_rect" : [ 1461.0, 343.0, 231.0, 62.0 ],
 					"text" : "jit.gl.gridshape aquarium @shape sphere @scale 0.05 0.05 0.05 @smooth_shading 1 @blend_enable 1 @gl_color 1. 1. 1. 0.4"
 				}
 
@@ -1520,7 +1592,7 @@
 
 							}
  ],
-						"originid" : "pat-50"
+						"originid" : "pat-28"
 					}
 ,
 					"patching_rect" : [ 29.0, 379.0, 104.0, 22.0 ],
@@ -1600,8 +1672,8 @@
 					"id" : "obj-101",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "jit_matrix", "jit_matrix", "" ],
 					"patching_rect" : [ 29.0, 494.0, 283.0, 22.0 ],
 					"style" : "default",
 					"text" : "xray.jit.boidsrender @scale 0.01 0.05 @normalize 1"
@@ -1627,8 +1699,8 @@
 					"id" : "obj-115",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 29.0, 450.0, 63.0, 22.0 ],
 					"style" : "default",
 					"text" : "jit.boids2d"
@@ -1666,7 +1738,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.5, 889.0, 330.0, 34.0 ],
+					"patching_rect" : [ 27.5, 889.0, 330.0, 33.0 ],
 					"style" : "default",
 					"text" : "xray.jit.boids also generates texture coordinates for the quads, making each quad display the entire texture"
 				}
@@ -1775,7 +1847,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.5, 703.0, 286.0, 34.0 ],
+					"patching_rect" : [ 27.5, 703.0, 286.0, 33.0 ],
 					"style" : "default",
 					"text" : "xray.jit.boids render is a utility object for jit.boids, turning the output of jit.boids from points to quads."
 				}
@@ -2138,7 +2210,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 706.0, 446.0, 138.0, 34.0 ],
+					"patching_rect" : [ 706.0, 446.0, 138.0, 33.0 ],
 					"style" : "default",
 					"text" : "point to which boids are attracted (x/y/z)"
 				}
@@ -2151,7 +2223,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 735.0, 373.0, 197.0, 34.0 ],
+					"patching_rect" : [ 735.0, 373.0, 197.0, 33.0 ],
 					"style" : "default",
 					"text" : "bounding box (walls) in which to fly (left/top/right/bottom/front/back)"
 				}
@@ -2345,7 +2417,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 159.461538461538453, 332.0, 34.0 ],
+					"patching_rect" : [ 64.0, 159.461538461538453, 332.0, 33.0 ],
 					"style" : "default",
 					"text" : "Based on Simon Fraser's implementation of Craig Reynolds' Boids algorithm. Boids is free for non-commercial use"
 				}
@@ -2358,7 +2430,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 285.461538461538453, 397.0, 34.0 ],
+					"patching_rect" : [ 64.0, 285.461538461538453, 397.0, 33.0 ],
 					"style" : "default",
 					"text" : "The flight parameters can be changed with messages. Use the 'dump' message to output a list of the current parameter settings."
 				}
@@ -2371,7 +2443,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 228.461538461538453, 367.0, 62.0 ],
+					"patching_rect" : [ 64.0, 228.461538461538453, 367.0, 60.0 ],
 					"style" : "default",
 					"text" : "Boids takes an integer argument which is the number of boids. Each time Boids receives a bang, it calculates and outputs the new positions of the boids. The output consists of thew coordiantes for each boid, the number and type depending on the mode."
 				}
@@ -2384,7 +2456,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 192.461538461538453, 431.0, 34.0 ],
+					"patching_rect" : [ 64.0, 192.461538461538453, 431.0, 33.0 ],
 					"style" : "default",
 					"text" : "Boids is a bird flight and animal flock simulator. It is based on the same algorithm which was used in Jurassic Park for the herding dinosaurs."
 				}
@@ -2801,7 +2873,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 318.461538461538453, 380.0, 34.0 ],
+					"patching_rect" : [ 64.0, 318.461538461538453, 380.0, 33.0 ],
 					"style" : "default",
 					"text" : "For more information about the Boids algorithm, see Craig Reynolds' Web site at \"http://reality.sgi.com/employees/craig/boids.html\"."
 				}
@@ -2948,8 +3020,15 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-103", 1 ],
-					"midpoints" : [ 302.5, 532.789469718933105, 87.0, 532.789469718933105 ],
+					"midpoints" : [ 170.5, 532.789469718933105, 87.0, 532.789469718933105 ],
 					"source" : [ "obj-101", 1 ]
 				}
 
@@ -3017,6 +3096,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-109", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-140", 0 ],
+					"source" : [ "obj-113", 0 ]
 				}
 
 			}
@@ -3210,6 +3296,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"source" : [ "obj-140", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-145", 0 ],
 					"source" : [ "obj-141", 0 ]
 				}
@@ -3219,6 +3312,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-146", 0 ],
 					"source" : [ "obj-142", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-153", 0 ],
+					"source" : [ "obj-144", 0 ]
 				}
 
 			}
@@ -3263,6 +3363,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-148", 0 ],
 					"source" : [ "obj-151", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
+					"source" : [ "obj-153", 0 ]
 				}
 
 			}
@@ -3491,6 +3598,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-104", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-100", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -3785,8 +3899,16 @@
 
 			}
  ],
-		"originid" : "pat-40",
-		"dependency_cache" : [  ],
+		"originid" : "pat-18",
+		"dependency_cache" : [ 			{
+				"name" : "jit.boids2d.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "xray.jit.boidsrender.mxo",
+				"type" : "iLaX"
+			}
+ ],
 		"autosave" : 0
 	}
 
