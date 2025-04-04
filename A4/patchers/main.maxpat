@@ -10,121 +10,16 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 183.0, 229.0, 1372.0, 389.0 ],
+		"rect" : [ 351.0, 105.0, 1511.0, 532.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-136",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1112.0, 864.0, 65.0, 22.0 ],
-					"text" : "1.5 1.5 1.5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-134",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1110.0, 824.0, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-132",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 757.999995648860931, 578.0, 72.0, 22.0 ],
-					"text" : "r sharkbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-131",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 978.999995648860931, 280.0, 72.0, 22.0 ],
-					"text" : "r sharkbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-130",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2056.0, 223.0, 74.0, 22.0 ],
-					"text" : "s sharkbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-129",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1850.5, 264.0, 64.0, 22.0 ],
-					"text" : "s boidstart"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-128",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 322.0, 409.0, 91.0, 22.0 ],
-					"text" : "r bgchangeblue"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-127",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2177.0, 229.0, 93.0, 22.0 ],
-					"text" : "s bgchangeblue"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-126",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 166.0, 409.0, 86.0, 22.0 ],
-					"text" : "r bgchangered"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-125",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1948.0, 229.0, 88.0, 22.0 ],
-					"text" : "s bgchangered"
+					"patching_rect" : [ 689.0, 534.0, 53.0, 22.0 ],
+					"text" : "s sharkx"
 				}
 
 			}
@@ -326,7 +221,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1369.999995648860931, 1056.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1369.999995648860931, 1056.0, 150.0, 34.0 ],
 					"text" : "<bang for continuous seaweed movement"
 				}
 
@@ -594,7 +489,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 759.0, 93.0, 37.0 ],
+					"patching_rect" : [ 24.0, 759.0, 93.0, 38.0 ],
 					"text" : "Background plane",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -923,7 +818,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 895.0, 60.0, 128.0, 51.0 ],
+					"patching_rect" : [ 895.0, 60.0, 128.0, 52.0 ],
 					"text" : "Global timing?\n(experimental, can be safely ignored)",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
@@ -976,7 +871,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 36.0, 93.0, 52.0 ],
+					"patching_rect" : [ 18.0, 36.0, 93.0, 53.0 ],
 					"text" : "Start audio & world render",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1002,7 +897,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 341.0, 464.0, 98.0, 51.0 ],
+					"patching_rect" : [ 341.0, 464.0, 98.0, 52.0 ],
 					"text" : "Background hue shift: red to blue",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1019,7 +914,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 51.0, 476.000014424324036, 93.0, 51.0 ],
+					"patching_rect" : [ 51.0, 476.000014424324036, 93.0, 52.0 ],
 					"text" : "Background hue shift: blue to red",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1141,7 +1036,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1429.999995648860931, 506.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1429.999995648860931, 506.0, 150.0, 34.0 ],
 					"text" : "bang for shark to swim towards audience"
 				}
 
@@ -1441,7 +1336,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 635.999995648860931, 625.0, 150.0, 74.0 ],
+					"patching_rect" : [ 635.999995648860931, 625.0, 150.0, 75.0 ],
 					"text" : "shark should bang at the point where the scary music starts (whenever we add the sounds then we can add it to bang"
 				}
 
@@ -1650,7 +1545,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 910.999995648860931, 719.0, 292.000008702278137, 35.0 ],
+					"patching_rect" : [ 910.999995648860931, 719.0, 292.000008702278137, 36.0 ],
 					"text" : "jit.gl.model aquarium @file SharkBoi.obj @smooth_shading 1 @lighting_enable 1"
 				}
 
@@ -1692,7 +1587,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 24.0, 759.0, 93.0, 37.0 ],
+					"patching_rect" : [ 24.0, 759.0, 93.0, 38.0 ],
 					"text" : "Background plane",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1752,7 +1647,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 132.0, 775.0, 342.0, 35.0 ],
+					"patching_rect" : [ 132.0, 775.0, 342.0, 36.0 ],
 					"text" : "jit.gl.videoplane aquarium @layer -10000 @gl_color 1. 1. 1. 1. @scale 13.3 4. 1. @position 0. 0. -4."
 				}
 
@@ -1800,7 +1695,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 107.0, 309.0, 178.0, 66.0 ],
+					"patching_rect" : [ 107.0, 309.0, 178.0, 67.0 ],
 					"text" : "Sends a bang every frame\n\nUseful for per-frame operations",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1827,7 +1722,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 234.0, 56.0, 293.0, 78.0 ],
+					"patching_rect" : [ 234.0, 56.0, 293.0, 79.0 ],
 					"text" : "Customize window size to fit your local machine screen\n\nAdd your own entries to this dropdown if needed with Inspector -> Items -> Menu Items",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -1891,7 +1786,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 60.0, 242.0, 341.0, 26.0 ],
+					"patching_rect" : [ 60.0, 242.0, 341.0, 27.0 ],
 					"text" : "jit.world aquarium @ortho 1 @esc_fullscreen 1"
 				}
 
@@ -1997,19 +1892,6 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2229.0, 934.0, 207.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "scale",
-					"id" : "obj-133",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1112.0, 898.0, 233.0, 22.0 ]
 				}
 
 			}
@@ -2173,13 +2055,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-127", 0 ],
-					"source" : [ "obj-118", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-119", 0 ]
 				}
@@ -2232,58 +2107,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"source" : [ "obj-126", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"source" : [ "obj-128", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"midpoints" : [ 1922.5, 841.99998927116394, 1897.999962091445923, 841.99998927116394, 1897.999962091445923, 967.99998927116394, 1922.5, 967.99998927116394 ],
 					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-110", 0 ],
-					"source" : [ "obj-131", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"source" : [ "obj-132", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"source" : [ "obj-133", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-136", 0 ],
-					"source" : [ "obj-134", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-133", 0 ],
-					"source" : [ "obj-136", 0 ]
 				}
 
 			}
@@ -2761,17 +2587,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-129", 0 ],
-					"order" : 1,
-					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-89", 0 ],
 					"midpoints" : [ 1856.5, 243.0, 2278.468505859375, 243.0, 2278.468505859375, 242.800079345703125, 2378.5, 242.800079345703125 ],
-					"order" : 0,
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -2854,8 +2671,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-125", 0 ],
+					"order" : 1,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
 					"midpoints" : [ 845.499995648860931, 547.666651010513306, 861.499995648860931, 547.666651010513306 ],
+					"order" : 0,
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -2993,13 +2819,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-125", 0 ],
-					"source" : [ "obj-79", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
 					"source" : [ "obj-80", 0 ]
 				}
@@ -3025,13 +2844,6 @@
 					"destination" : [ "obj-91", 1 ],
 					"midpoints" : [ 1439.499995648860931, 679.166668653488159, 1573.499995648860931, 679.166668653488159 ],
 					"source" : [ "obj-82", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-130", 0 ],
-					"source" : [ "obj-83", 0 ]
 				}
 
 			}
@@ -3153,7 +2965,7 @@
 
 			}
  ],
-		"originid" : "pat-144",
+		"originid" : "pat-14",
 		"parameters" : 		{
 			"obj-24" : [ "live.gain~", "live.gain~", 0 ],
 			"parameterbanks" : 			{
@@ -3176,7 +2988,7 @@
 			}
 , 			{
 				"name" : "sea.jpg",
-				"bootpath" : "~/Documents/GitHub/datt2050/A4/media",
+				"bootpath" : "~/Downloads/a4/A4/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
 				"implicit" : 1
