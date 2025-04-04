@@ -4,16 +4,28 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 3.0, 145.0, 1517.0, 913.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 717.0 ],
 		"bglocked" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-125",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 485.835442423820496, -2.0, 62.0, 22.0 ],
+					"text" : "r boidstart"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"attr" : "speed",
 					"id" : "obj-124",
@@ -89,7 +101,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -298,7 +310,7 @@
 
 							}
  ],
-						"originid" : "pat-42"
+						"originid" : "pat-94"
 					}
 ,
 					"patching_rect" : [ 1684.0, 208.0, 143.0, 22.0 ],
@@ -330,7 +342,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -534,7 +546,7 @@
 
 							}
  ],
-						"originid" : "pat-44"
+						"originid" : "pat-96"
 					}
 ,
 					"patching_rect" : [ 1684.0, 103.526315450668335, 171.0, 22.0 ],
@@ -627,7 +639,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -817,7 +829,7 @@
 
 							}
  ],
-						"originid" : "pat-46"
+						"originid" : "pat-98"
 					}
 ,
 					"patching_rect" : [ 1293.0, 213.461538461538453, 121.0, 22.0 ],
@@ -849,7 +861,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1053,7 +1065,7 @@
 
 							}
  ],
-						"originid" : "pat-48"
+						"originid" : "pat-100"
 					}
 ,
 					"patching_rect" : [ 1293.0, 107.615384615384642, 149.0, 22.0 ],
@@ -1105,7 +1117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 1461.0, 343.0, 231.0, 64.0 ],
+					"patching_rect" : [ 1461.0, 343.0, 231.0, 62.0 ],
 					"text" : "jit.gl.gridshape aquarium @shape sphere @scale 0.05 0.05 0.05 @smooth_shading 1 @blend_enable 1 @gl_color 1. 1. 1. 0.4"
 				}
 
@@ -1175,7 +1187,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1327,7 +1339,7 @@
 
 							}
  ],
-						"originid" : "pat-50"
+						"originid" : "pat-102"
 					}
 ,
 					"patching_rect" : [ 29.0, 379.0, 104.0, 22.0 ],
@@ -1473,7 +1485,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.5, 889.0, 330.0, 34.0 ],
+					"patching_rect" : [ 27.5, 889.0, 330.0, 33.0 ],
 					"style" : "default",
 					"text" : "xray.jit.boids also generates texture coordinates for the quads, making each quad display the entire texture"
 				}
@@ -1582,7 +1594,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.5, 703.0, 286.0, 34.0 ],
+					"patching_rect" : [ 27.5, 703.0, 286.0, 33.0 ],
 					"style" : "default",
 					"text" : "xray.jit.boids render is a utility object for jit.boids, turning the output of jit.boids from points to quads."
 				}
@@ -1974,7 +1986,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 706.0, 446.0, 138.0, 34.0 ],
+					"patching_rect" : [ 706.0, 446.0, 138.0, 33.0 ],
 					"style" : "default",
 					"text" : "point to which boids are attracted (x/y/z)"
 				}
@@ -1987,7 +1999,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 735.0, 373.0, 197.0, 34.0 ],
+					"patching_rect" : [ 735.0, 373.0, 197.0, 33.0 ],
 					"style" : "default",
 					"text" : "bounding box (walls) in which to fly (left/top/right/bottom/front/back)"
 				}
@@ -2181,7 +2193,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 159.461538461538453, 332.0, 34.0 ],
+					"patching_rect" : [ 64.0, 159.461538461538453, 332.0, 33.0 ],
 					"style" : "default",
 					"text" : "Based on Simon Fraser's implementation of Craig Reynolds' Boids algorithm. Boids is free for non-commercial use"
 				}
@@ -2194,7 +2206,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 285.461538461538453, 397.0, 34.0 ],
+					"patching_rect" : [ 64.0, 285.461538461538453, 397.0, 33.0 ],
 					"style" : "default",
 					"text" : "The flight parameters can be changed with messages. Use the 'dump' message to output a list of the current parameter settings."
 				}
@@ -2207,7 +2219,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 228.461538461538453, 367.0, 62.0 ],
+					"patching_rect" : [ 64.0, 228.461538461538453, 367.0, 60.0 ],
 					"style" : "default",
 					"text" : "Boids takes an integer argument which is the number of boids. Each time Boids receives a bang, it calculates and outputs the new positions of the boids. The output consists of thew coordiantes for each boid, the number and type depending on the mode."
 				}
@@ -2220,7 +2232,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 192.461538461538453, 431.0, 34.0 ],
+					"patching_rect" : [ 64.0, 192.461538461538453, 431.0, 33.0 ],
 					"style" : "default",
 					"text" : "Boids is a bird flight and animal flock simulator. It is based on the same algorithm which was used in Jurassic Park for the herding dinosaurs."
 				}
@@ -2637,7 +2649,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 318.461538461538453, 380.0, 34.0 ],
+					"patching_rect" : [ 64.0, 318.461538461538453, 380.0, 33.0 ],
 					"style" : "default",
 					"text" : "For more information about the Boids algorithm, see Craig Reynolds' Web site at \"http://reality.sgi.com/employees/craig/boids.html\"."
 				}
@@ -2901,6 +2913,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-117", 0 ],
 					"source" : [ "obj-124", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-125", 0 ]
 				}
 
 			}
@@ -3460,14 +3479,14 @@
 
 			}
  ],
-		"originid" : "pat-40",
+		"originid" : "pat-92",
 		"dependency_cache" : [ 			{
-				"name" : "jit.boids2d.mxe64",
-				"type" : "mx64"
+				"name" : "jit.boids2d.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "xray.jit.boidsrender.mxe64",
-				"type" : "mx64"
+				"name" : "xray.jit.boidsrender.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0
