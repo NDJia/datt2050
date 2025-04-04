@@ -2,13 +2,10 @@
 	"name" : "A4",
 	"version" : 1,
 	"creationdate" : 3825250917,
-<<<<<<< Updated upstream
 	"modificationdate" : 3826571435,
 	"viewrect" : [ 1201.0, 180.0, 300.0, 471.0 ],
-=======
 	"modificationdate" : 3826026656,
 	"viewrect" : [ 107.0, 111.0, 300.0, 500.0 ],
->>>>>>> Stashed changes
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -42,7 +39,6 @@
 			}
 
 		}
-<<<<<<< Updated upstream
 ,
 		"media" : 		{
 			"bubbles-007.wav" : 			{
@@ -168,8 +164,6 @@
 			}
 
 		}
-=======
->>>>>>> Stashed changes
 
 	}
 ,

@@ -298,7 +298,7 @@
 
 							}
  ],
-						"originid" : "pat-73"
+						"originid" : "pat-42"
 					}
 ,
 					"patching_rect" : [ 1684.0, 208.0, 143.0, 22.0 ],
@@ -534,7 +534,7 @@
 
 							}
  ],
-						"originid" : "pat-75"
+						"originid" : "pat-44"
 					}
 ,
 					"patching_rect" : [ 1684.0, 103.526315450668335, 171.0, 22.0 ],
@@ -817,7 +817,7 @@
 
 							}
  ],
-						"originid" : "pat-77"
+						"originid" : "pat-46"
 					}
 ,
 					"patching_rect" : [ 1293.0, 213.461538461538453, 121.0, 22.0 ],
@@ -1053,7 +1053,7 @@
 
 							}
  ],
-						"originid" : "pat-79"
+						"originid" : "pat-48"
 					}
 ,
 					"patching_rect" : [ 1293.0, 107.615384615384642, 149.0, 22.0 ],
@@ -1327,7 +1327,7 @@
 
 							}
  ],
-						"originid" : "pat-81"
+						"originid" : "pat-50"
 					}
 ,
 					"patching_rect" : [ 29.0, 379.0, 104.0, 22.0 ],
@@ -2207,7 +2207,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 225.461538461538453, 367.0, 62.0 ],
+					"patching_rect" : [ 64.0, 228.461538461538453, 367.0, 62.0 ],
 					"style" : "default",
 					"text" : "Boids takes an integer argument which is the number of boids. Each time Boids receives a bang, it calculates and outputs the new positions of the boids. The output consists of thew coordiantes for each boid, the number and type depending on the mode."
 				}
@@ -3460,7 +3460,7 @@
 
 			}
  ],
-		"originid" : "pat-71",
+		"originid" : "pat-40",
 		"dependency_cache" : [ 			{
 				"name" : "jit.boids2d.mxe64",
 				"type" : "mx64"
